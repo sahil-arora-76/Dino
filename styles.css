@@ -1,0 +1,141 @@
+canvas{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);               
+}
+.popup {
+  margin-top: 15% ;
+  margin-left: 40%;
+  /* margin-: 2rem  ; */
+  padding: 8px;
+  padding-bottom: 1rem;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  display: none;
+}
+
+.popup h1 {
+  margin-top: 0.1rem;
+  margin-left: 0.50rem;
+  margin-bottom: 20px;
+  color: rgb(252, 248, 245);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(12, 12, 12);
+  margin: -1.5rem;
+
+  padding: 0.2rem;
+}
+
+.popup .content {
+  margin-top: 2rem;
+  max-height: 30%;
+  overflow: auto;
+}
+
+.gamepaused {
+    margin-left: 5rem;
+}
+
+.score {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin-left: 1rem;
+   font-size: 0.5cm;
+}
+
+.score2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-left: 1rem;
+font-size: 0.5cm;
+}
+
+.resume {   
+   margin-top: 1rem;
+   margin-left: 5rem;
+   margin-bottom: 0.6rem;
+   border-radius: 0.2rem;
+   padding: 0.4rem 0.8rem;
+
+}
+
+
+.resume1:hover {
+  color: rgb(255, 255, 255);
+}
+
+.resume:hover {
+  background-color: rgb(104, 131, 252);
+  color: rgb(255, 255, 255);
+}
+
+.close:hover{
+ color: red;
+}
+.popups {
+  display: none;
+  margin-left: 35%;
+  margin-top: 4%;
+  margin-right: 6%;
+  margin-bottom: 6%;
+  padding-left: 3%;
+  padding-top: 2%;
+  padding-bottom: 30%;
+  padding-right: -25%;
+  border-radius: 1%;
+  width: 30%;
+  height: 50%;
+  position: fixed;
+  background: url(https://media.discordapp.net/attachments/745685888297730178/783605626168672296/Gradients_Amlit_35.jpg?width=845&height=475) no-repeat;
+}
+
+.sound {
+   margin-left: 38%;
+   margin-top: -2%;
+   margin-bottom: 6%;
+   font-family: monospace;
+}
+
+.yes {
+   margin-left: 25%;
+   border-radius: 8px;
+   padding: 0.2rem 1rem;
+}
+
+.yes:hover {
+ background-color: red;
+ color: white;
+}
+.no {
+  margin-left: 5%;
+  border-radius: 8px;
+  padding: 0.2rem 1rem;
+}
+
+.no:hover {
+ background-color: red;
+ color: white;
+}
+
+.dino {
+   width: 30%;
+   margin-left: -74%;
+   margin-top: -2%;
+   margin-bottom: -8%;
+}
+b{ 
+  height : 50%;
+}
+ol { 
+  width: 160%;
+}

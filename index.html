@@ -1,0 +1,56 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dino</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="module" src="js/app.js" defer></script>
+  </head>
+  <body>
+    <canvas> </canvas>
+    <div class="popup" id="popup">
+      <h1 class="gamepaused">GAME OVER</h1>
+
+      <div class="content">
+        <label class="score" id="score">CURRENT SCORE</label>
+        <br />
+        <br />
+        <label class="score2" id="score2">HIGHEST SCORE</label>
+        <br />
+        <br />
+      </div>
+      <button class="resume" id="resume">RETRY</button>
+    </div>
+    <div class="popups" id="popups">
+      <h1 class="sound" id="sound"><img src="/images/Dino_init2.png" class="dino">DO YOU WANT SOUND?</h1>
+   <button class="yes" id="yes">
+        YES
+   </button>
+   <button class="no" id="no">
+    NO
+   </button>
+<br>
+<br>
+<br>
+<br>
+<h2 style="font-family: monospace; font-size: 30px; width: 30%;">INSTRUCTION</h2>
+<br>
+<ol style="font-family: monospace;">
+  <li >W Or Left Arrow Key For Moving Left</li>
+  <br>
+  <li >D or Right Arrow Key For Moving Right</li>
+  <br>
+  <li >Space Or Up Arrow Key For Jumping</li>
+<br>
+<li >  Eating Food Will Give You A Point </li>
+
+<br>
+ <li >Bomb Will Cost You 1 Life</li>   
+ <br> 
+ <li> Game Will Finish If All 3 Lives Are Used </li>
+
+</ol>
+</div>
+  </body>
+</html>
