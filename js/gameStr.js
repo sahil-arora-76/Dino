@@ -1,5 +1,5 @@
 import { tileList, updateList } from "./tile.js";
-import { player } from "./playter.js";
+import { player } from "./player.js";
 import { ctx, game } from "./ctx.js";
 import { brickList, foodList } from "./food.js";
 let notilelist = [];

@@ -1,2 +1,10 @@
 a simple game made on js canvas 
-live demo [click here](https://Dino.notadevps.repl.co)
+to run this game
+
+`
+npm init -y
+npm install 
+node server.js
+`
+
+default port is 8000

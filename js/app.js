@@ -1,7 +1,7 @@
 import { ctx, init, game } from "./ctx.js";
 import { drawFood, food as foods, foodList, brickList } from "./food.js";
 import { drawBack, food_player_collsion, food_tile_collision, catcher_tile_collision, fruit_player_collision } from "./gameStr.js";
-import { movePlayer, player, drawPlayer } from "./playter.js";
+import { movePlayer, player, drawPlayer } from "./player.js";
 const audio = new Audio("sound/backvoice2.mp3");
 import { drawList, updateList } from "./tile.js";
 let popup = document.getElementById("popup");
