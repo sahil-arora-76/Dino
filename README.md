@@ -2,8 +2,9 @@ a simple game made on js canvas
 to run this game
 
 `
-npm init -y
-npm install 
+npm install
+`
+`
 node server.js
 `
 
